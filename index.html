@@ -3,7 +3,10 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
+    <script
+      src="https://kit.fontawesome.com/21b65720c1.js"
+      crossorigin="anonymous"
+    ></script>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -13,38 +16,255 @@
     <link rel="stylesheet" href="styles.css" />
 
     <!--fontawesome link pasted here-->
-    <script
-      src="https://kit.fontawesome.com/691d3ab680.js"
-      crossorigin="anonymous"
-    ></script>
+
     <title>MY PORTFOLIO</title>
 
-    <nav>
+    <nav >
       <div class="left">Rahul Nain</div>
       <div class="right">
         <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Project</li>
-          <li>skills</li>
-          <li>Contact me</li>
+          <li><h4><a href="#Home">Home</a><h4></li>
+          <li><h4><a href="#About">About</a></h4></li>
+          <li><h4><a href="#Projects">Projects</a></h4></li>
+          <li><h4><a href="#Skills">Skills</a></h4></li>
+          <li><h4><a href="#Contact">Contact</a></h4></li>
         </ul>
       </div>
     </nav>
   </head>
   <body>
     <main>
-      <section class="first">
-        <div class="leftsection">left</div>
-        <div class="rightsection">right</div>
+      <section id="Home" class="first">
+        <div id="leftside" class="leftsection">
+          <img src="devp.png" alt="lagaunga baad mein" />
+        </div>
+        <div id="rightside" class="rightsection">
+          Hey there, i am <span class="name"></span>
+        
+          <span id="element" class="name"></span>
+
+          <nav class="nav">
+              <a class="nav-link" href="https://github.com/Rahul-nain172"><i class="fa-brands fa-github"></i></a>
+              <a class="nav-link" href="https://www.instagram.com/rahul.nain__/"><i class="fa-brands fa-instagram"></i></a>
+              <a class="nav-link" href="connecttorahulnain@gmail.com"><i class="fa-regular fa-envelope"></i></a>
+              <a class="nav-link" href="https://twitter.com/Rahulna00538660"><i class="fa-brands fa-twitter"></i></a>
+            </nav>        
+
+        </div>
+      </section>
+      <hr class="line1" />
+      <section id="About" class="about_me">
+        <h1 class="section-heading mb75px">
+          <span>
+            <i class="fa-solid fa-user"></i>
+          </span>
+          <span> About Me </span>
+        </h1>
+        <p>
+          I am a 3rd year undergrad at NSUT pursuing Btech in Information Technology.I am keen learner ,currently learning Web Dev and improving my DSA and Competitive Programming skills by giving contests and learning new algorithms.
+          I am active on leetcode,codechef and codeforces. I love to play chess and love to solve challenging problems. I aspire to become a better version of myself every day and doing my best to achieve my goals. 
+        </p>
+      </section>
+
+      <!--Projects-->
+      <section id="Projects">
+        <h1 class="section-heading mb75px">
+          <span>
+            <i class="fas fa-chalkboard-teacher"></i>
+          </span>
+          <span> Projects </span>
+        </h1>
+
+        <div class="row">
+          <div class="col-sm-6 mb-3 mb-sm-0">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Music_Player</h5>
+                <p class="card-text">
+                  This is a front-end based project where i created an interface of a typical music player
+                </p>
+                <a
+                  href="https://rahul-nain172.github.io/music_player/"
+                  class="btn btn-primary"
+                  >View</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">My Portfolio</h5>
+                <p class="card-text">
+                 I have used html,css,bootstrap and javascript to make my portfolio website.
+                </p>
+                <a href="#" class="btn btn-primary">View</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-----  <section id="Projects">
+        <h1 class="Black">
+          <span> MY Projects </span>
+        </h1>
+
+        <div class="my_projects">
+          <div class="box">
+            <h3>
+              <a href="https://rahul-nain172.github.io/music_player/"
+                >Music_Player</a
+              >
+            </h3>
+          </div>
+          <div class="box">
+            <h3>
+              <a href="https://rahul-nain172.github.io/music_player/"
+                >Portfolio</a
+              >
+            </h3>
+          </div>
+        </div>
+      </section>-->
+      <!--skills-->
+      <section id="Skills">
+        <h1 class="section-heading mb75px">
+          <span>
+            <i class="fas fa-chalkboard-teacher"></i>
+          </span>
+          <span> SKILLS </span>
+        </h1>
+
+        <div id="skills-container" class="skills-display">
+          <div class="skill-progress">
+            <div class="ninety-percent mb-blue">
+              <div class="skill-name">
+                <span> C++ </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-progress">
+            <div class="fifty-percent mb-orange">
+              <div class="skill-name">
+                <span>Javascript</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-progress">
+            <div class="seventy-five-percent mb-light-purple">
+              <div class="skill-name">
+                <span> HTML </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-progress">
+            <div class="fifty-percent mb-teal">
+              <div class="skill-name">
+                <span> CSS </span>
+              </div>
+            </div>
+          </div>
+          <div class="skill-progress">
+            <div class="fifty-percent mb-blue">
+              <div class="skill-name">
+                <span> Python </span>
+              </div>
+            </div>
+          </div>
+          <div class="skill-progress">
+            <div class="seventy-five-percent mb-light-purple">
+              <div class="skill-name">
+                <span>Mysql</span>
+              </div>
+            </div>
+          </div>
+        
+        <div class="skill-progress">
+            <div class="seventy-five-percent mb-light-purple">
+              <div class="skill-name">
+                <span>CP</span>
+              </div>
+            </div>
+          </div>
+          <div class="skill-progress">
+              <div class="ninety-percent mb-light-purple">
+                <div class="skill-name">
+                  <span>DSA</span>
+                </div>
+              </div>
+            </div>
+        </div>
+      </section>
+      <hr />
+      <!---contact me-->
+      <section id="Contact">
+          <h1 class="section-heading mb75px">
+              <span>
+                <i class="fa-solid fa-address-book"></i>  
+              </span>
+              <span> Contact me </span>
+            </h1>
+
+        <div class="container">
+          <footer class="row">
+            <div class="col">
+              <h5>
+                Address
+              </h5>
+              <li class="address">Gurgaon,Haryana</li>
+            </div>
+            <div class="col">
+              <h5>Social Media</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a class="nav-link" href="https://www.linkedin.com/in/rahul-nain-960a0825a/">Linkedin</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://www.instagram.com/rahul.nain__/">Instagram</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="connecttorahulnain@gmail.com">Gmail</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://twitter.com/Rahulna00538660">Twitter</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col">
+              <h5>Chess Profile</h5>
+              <li><a class="modify" href="https://www.chess.com/member/rs1nain">Chess Handle</a></li>
+            </div>
+            <div class="col">
+              <h5>Coding Websites</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a class="nav-link" href="https://leetcode.com/rahulnain04/">LeetCode</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://www.codechef.com/users/rahul_nain">Codechef</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://codeforces.com/profile/Rahul_Nain">Codeforces</a>
+                </li>
+              </ul>
+            </div>
+          </footer>
+        </div>
       </section>
     </main>
+
+    <!--typed js library-->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["a Web developer.", "a competitive programmer."],
+        typeSpeed: 50
+      });
+    </script>
   </body>
-  <script
-    src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-    crossorigin="anonymous"
-  ></script>
   <script
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
@@ -53,3 +273,4 @@
 
   <script src="script.js"></script>
 </html>
+

@@ -1,4 +1,4 @@
-var anchortags = document.querySelectorAll("nav .right a");
+/*var anchortags = document.querySelectorAll("nav .right a");
 console.log(anchortags.length);
 for (var i = 0; i < anchortags.length; i++) {
   anchortags[i].addEventListener("click", function (event) {
@@ -19,7 +19,7 @@ for (var i = 0; i < anchortags.length; i++) {
   });
 }
 
-/*var skill_bar_animation_done = (false, false, false, false, false, false);
+var skill_bar_animation_done = (false, false, false, false, false, false);
 var progress_bars = document.querySelectorAll(".skill-progress > div");
 
 function initialize_skill_bars(bar) {

@@ -51,6 +51,6 @@ function check_scroll() {
       initialize_skill_bars(progress_bars[i]);
     }
   }
-}
-window.addEventListener("scroll", check_scroll);
+}*/
+/*window.addEventListener("scroll", check_scroll);
 */

@@ -13,6 +13,7 @@
       integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
       crossorigin="anonymous"
     />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css" />
 
     <!--fontawesome link pasted here-->
@@ -72,9 +73,10 @@
           <span>
             <i class="fas fa-chalkboard-teacher"></i>
           </span>
+         
           <span> Projects </span>
         </h1>
-
+    
         <div class="row">
           <div class="col-sm-6 mb-3 mb-sm-0">
             <div class="card">
@@ -127,7 +129,12 @@
         </div>
       </section>-->
       <!--skills-->
+      <div>
+
+      </div>
+      <div >
       <section id="Skills">
+
         <h1 class="section-heading mb75px">
           <span>
             <i class="fas fa-chalkboard-teacher"></i>
@@ -138,13 +145,13 @@
         <div id="skills-container" class="skills-display">
           <div class="skill-progress">
             <div class="ninety-percent mb-blue">
-              <div class="skill-name">
+              <div class="skill-name"  >
                 <span> C++ </span>
               </div>
             </div>
           </div>
 
-          <div class="skill-progress">
+          <div class="skill-progress" >
             <div class="fifty-percent mb-orange">
               <div class="skill-name">
                 <span>Javascript</span>
@@ -152,52 +159,53 @@
             </div>
           </div>
 
-          <div class="skill-progress">
+          <div class="skill-progress"  >
             <div class="seventy-five-percent mb-light-purple">
-              <div class="skill-name">
+              <div class="skill-name" >
                 <span> HTML </span>
               </div>
             </div>
           </div>
 
-          <div class="skill-progress">
+          <div class="skill-progress"  >
             <div class="fifty-percent mb-teal">
               <div class="skill-name">
                 <span> CSS </span>
               </div>
             </div>
           </div>
-          <div class="skill-progress">
+          <div class="skill-progress"  >
             <div class="fifty-percent mb-blue">
-              <div class="skill-name">
+              <div class="skill-name" >
                 <span> Python </span>
               </div>
             </div>
           </div>
-          <div class="skill-progress">
+          <div class="skill-progress"  >
             <div class="seventy-five-percent mb-light-purple">
-              <div class="skill-name">
+              <div class="skill-name" >
                 <span>Mysql</span>
               </div>
             </div>
           </div>
         
-        <div class="skill-progress">
+        <div class="skill-progress" >
             <div class="seventy-five-percent mb-light-purple">
-              <div class="skill-name">
+              <div class="skill-name" >
                 <span>CP</span>
               </div>
             </div>
           </div>
-          <div class="skill-progress">
+          <div class="skill-progress"  >
               <div class="ninety-percent mb-light-purple">
-                <div class="skill-name">
+                <div class="skill-name" >
                   <span>DSA</span>
                 </div>
               </div>
             </div>
         </div>
       </section>
+    </div>
       <hr />
       <!---contact me-->
       <section id="Contact">
@@ -261,10 +269,16 @@
     <script>
       var typed = new Typed("#element", {
         strings: ["a Web developer.", "a competitive programmer."],
-        typeSpeed: 50
+        typeSpeed: 50,
+        loop:true
       });
     </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
+
   <script
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
@@ -273,4 +287,6 @@
 
   <script src="script.js"></script>
 </html>
+
+
 
